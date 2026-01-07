@@ -1,0 +1,85 @@
+[gd_scene load_steps=3 format=3 uid="uid://dhuhy8r2534el"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_e0sfr"]
+bg_color = Color(0, 0, 0, 0.45490196)
+border_width_top = 1
+border_color = Color(0.82622945, 0.9531495, 0.9776779, 1)
+
+[sub_resource type="Theme" id="Theme_e0sfr"]
+PanelContainer/styles/panel = SubResource("StyleBoxFlat_e0sfr")
+
+[node name="Dialogue UI" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Dialogue Box" type="PanelContainer" parent="."]
+custom_minimum_size = Vector2(0, 150)
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -150.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = SubResource("Theme_e0sfr")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Dialogue Box"]
+layout_mode = 2
+bbcode_enabled = true
+text = "Dialogue here"
+
+[node name="SpeakerBox" type="PanelContainer" parent="."]
+custom_minimum_size = Vector2(200, 50)
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -205.79001
+offset_right = 200.0
+offset_bottom = -155.78986
+grow_vertical = 0
+
+[node name="Control" type="Control" parent="SpeakerBox"]
+layout_mode = 2
+
+[node name="Polygon2D" type="Polygon2D" parent="SpeakerBox/Control"]
+color = Color(0, 0, 0, 0.19607843)
+polygon = PackedVector2Array(200, 0, 200, 50, 0, 50, 0, 0)
+
+[node name="Label" type="Label" parent="SpeakerBox/Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -23.5
+offset_top = -11.5
+offset_right = 23.5
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Name"
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -1152.0
+offset_top = -648.0
+offset_right = -1112.0
+offset_bottom = -608.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="Polygon2D" type="Polygon2D" parent="Control"]
+position = Vector2(1097, 588)
+polygon = PackedVector2Array(0, 0, 20, 15, 0, 30)

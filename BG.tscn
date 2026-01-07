@@ -1,0 +1,40 @@
+[gd_scene load_steps=4 format=3 uid="uid://doc866k3it1tl"]
+
+[ext_resource type="Texture2D" uid="uid://iquspk0nihca" path="res://Assets/Placeholder BG/Home day.png" id="1_7r6q2"]
+[ext_resource type="PackedScene" uid="uid://1elm1tssnrpk" path="res://Character.tscn" id="2_7r6q2"]
+[ext_resource type="PackedScene" uid="uid://dhuhy8r2534el" path="res://dialogue_ui.tscn" id="3_7r6q2"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_7r6q2")
+expand_mode = 1
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="CanvasLayer2"]
+layout_mode = 3
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -576.0
+offset_top = -648.0
+offset_right = -536.0
+offset_bottom = -608.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Character" parent="CanvasLayer2/Control" instance=ExtResource("2_7r6q2")]
+position = Vector2(7, -40.955)
+
+[node name="Dialogue UI" parent="CanvasLayer2" instance=ExtResource("3_7r6q2")]
