@@ -5,4 +5,4 @@
 image Shizuku normal = "PH_Shizuku_Normal.png"
 
 # Rei Sprites
-image Rei normal = "PH_Rei_Normal.png"
+image rei normal = "Assets/Placeholder_sprites/PH_Rei_Normal.png"
