@@ -39,7 +39,7 @@ default mc_name = "MC"
 
 label scene_1_new_home:
 
-    show Rei
+    show Rei normal
 
     n "The rain stopped just as we arrived at the house."
 
