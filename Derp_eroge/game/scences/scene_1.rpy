@@ -2,9 +2,9 @@
 # CHARACTER DEFINITIONS
 # =========================
 
-define n = Character(None)
+define n = Character(None) #Narrator
 
-define mc = Character(
+define mc = Character(  #Rei/Player
     "[mc_name]",
     what_prefix="“",
     what_suffix="”"
@@ -39,13 +39,19 @@ default mc_name = "MC"
 
 label scene_1_new_home:
 
-    show rei normal
-
     n "The rain stopped just as we arrived at the house."
+
+    show rei normal:
+        xalign 0.8
+        yalign 1.0
 
     mc "{i}It felt strange.{/i}"
     mc "{i}Everything felt weird. Everything was new—houses, trees, cars.{/i}"
     mc "{i}Being stuck inside that shelter for so long left me clueless about the outside world.{/i}"
+
+    hide rei normal
+
+    # BG image WIP
 
     sd "Hey there, bud."
     sd "You okay? You look like you’ve never been outside before."
@@ -56,12 +62,41 @@ label scene_1_new_home:
     sd "Oh. Well—enjoy it as much as you like, kid."
     sd "It really is nice out here."
 
+    #switch to adoption room bg WIP
+
+    show shinji normal
+
     sd "{i}Poor kid. I hope he pulls through.{/i}"
+
+    hide shinji normal
 
     mc "{i}Adopted.{/i}"
     mc "{i}Such a simple word for something that feels… strange.{/i}"
     mc "{i}New walls. New rules. New people.{/i}"
     mc "{i}I wonder how long it’ll take before they start feeling… real.{/i}"
+
+    # home bg WIP
+    show shinji normal
+
+    mc "{i}We arrived in this cozy neighborhood.{/i}"
+    mc "{i}The rain stopped as my new adoptive "Father" parked his car.{/i}"
+    mc "{i}When I stepped outside I caught a smell of the humid air left behind by the rain.{/i}"
+    mc "{i}I went out the gate to take a better look around.{/i}"
+    mc "{i}The neighborhood was quiet enough.{/i}"
+    mc "{i}I found it quite peaceful compared to the barn they call shelter.{/i}"
+    mc "{i}I take a look at the house and observed.{/i}"
+    mc "{i}It was a two story house approximately for 3 people.{/i}"
+    mc "{i}But why did they picked a house good for 3 people?{/i}"
+    mc "{i}From what Shinji-san said, He only mentioned about having a step-daughter.{/i}"
+    mc "{i}Did they already planned to adopt a child?{/i}"
+    mc "{i}If so, how far did they already planned to adopt a child to get a house good for three?{/i}"
+    mc "{i}Maybe there was another relative who lives in this house?{/i}"
+    mc "{i}Or...{/i}"
+    mc "{i}I might just be thinking about it too hard.{/i}"
+
+    sd "[mc_name]-kun, lets get inside."
+
+    # switch to living room bg WIP
 
     sd "Here we are."
 

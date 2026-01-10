@@ -86,9 +86,12 @@ define gui.title_text_size = 75
 
 ## Main and Game Menus #########################################################
 
-## The images used for the main and game menus.
-define gui.main_menu_background = im.FactorScale("Assets/Placeholder BG/placeholder bg1.png", 1.5)
-define gui.game_menu_background = im.FactorScale("Assets/Placeholder BG/placeholder bg1.png",1.5)
+## The images used for the main and game menus.  (--Temporary--)
+#define gui.main_menu_background = im.FactorScale("Assets/Placeholder BG/placeholder bg1.png", 1.5)
+#define gui.game_menu_background = im.FactorScale("Assets/Placeholder BG/placeholder bg1.png",1.5)
+
+define gui.main_menu_background = "Assets/Placeholder BG/placeholder bg1.png"
+define gui.game_menu_background = "Assets/Placeholder BG/placeholder bg1.png"
 
 
 ## Dialogue ####################################################################
