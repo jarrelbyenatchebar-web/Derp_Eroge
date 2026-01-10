@@ -75,12 +75,12 @@ label scene_1_new_home:
     mc "{i}New walls. New rules. New people.{/i}"
     mc "{i}I wonder how long it’ll take before they start feeling… real.{/i}"
 
-    # home bg WIP
-    show shinji normal
-
     mc "{i}We arrived in this cozy neighborhood.{/i}"
-    mc "{i}The rain stopped as my new adoptive "Father" parked his car.{/i}"
+    mc "{i}The rain stopped as my new adoptive \"Father\" parked his car.{/i}"
     mc "{i}When I stepped outside I caught a smell of the humid air left behind by the rain.{/i}"
+
+    # home(front) bg WIP
+
     mc "{i}I went out the gate to take a better look around.{/i}"
     mc "{i}The neighborhood was quiet enough.{/i}"
     mc "{i}I found it quite peaceful compared to the barn they call shelter.{/i}"
@@ -97,6 +97,8 @@ label scene_1_new_home:
     sd "[mc_name]-kun, lets get inside."
 
     # switch to living room bg WIP
+
+    show shinji normal
 
     sd "Here we are."
 
@@ -128,6 +130,8 @@ label scene_1_new_home:
     n "He raises his voice slightly."
 
     sd "Shizuku? We’re home."
+
+    hide shinji normal
 
     n "Footsteps descended the stairs."
 
