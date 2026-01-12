@@ -15,7 +15,8 @@ define sd = Character(
     what_suffix="”"
 )
 
-define sz = Character(
+
+define shizuku = Character(
     "Shizuku",
     what_prefix="“",
     what_suffix="”"
