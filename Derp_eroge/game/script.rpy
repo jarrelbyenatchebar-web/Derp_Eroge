@@ -20,6 +20,6 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    jump scene_1_new_home
+    jump scene_0_prologue
 
     return

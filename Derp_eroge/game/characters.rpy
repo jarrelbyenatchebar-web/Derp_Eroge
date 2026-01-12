@@ -1,4 +1,22 @@
+define n = Character(None)
 
-# loading the images
-image shizuku normal = "PH_Shizuku_Normal.png"
-image rei normal = "Assets/Placeholder_sprites/PH_Rei_Normal.png"
+define mngr = Character("random manager",what_prefix="“",
+    what_suffix="”" )
+
+define mc = Character(
+    "[mc_name]",
+    what_prefix="“",
+    what_suffix="”"
+)
+
+define sd = Character(
+    "Shinji",
+    what_prefix="“",
+    what_suffix="”"
+)
+
+define sz = Character(
+    "Shizuku",
+    what_prefix="“",
+    what_suffix="”"
+)
