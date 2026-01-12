@@ -1,6 +1,4 @@
 
-<<<<<<< HEAD
-=======
 define n = Character(None) #Narrator
 
 define mc = Character(  #Rei/Player
@@ -24,7 +22,6 @@ define sz = Character(
 # =========================
 # DEFAULT VARIABLES
 # =========================
->>>>>>> refs/remotes/origin/main
 
 default mc_name = "MC"
 
