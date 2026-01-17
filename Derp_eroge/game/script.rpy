@@ -20,6 +20,9 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    jump scene_0_prologue
+    default Affection = 0 #Variables for H-scenes and story progression
+    default Lust = 0
+
+    jump scene_1_new_home #change after adding the prologue(WIP)
 
     return
