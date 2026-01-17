@@ -2,7 +2,7 @@
 
 
 # Shizuku Sprites
-image shizuku normal = "PH_Shizuku_Normal.png"
+image shizuku normal = "Assets/Placeholder_sprites/PH_Shizuku_Normal.png"
 
 # Rei Sprites
 image rei normal = "Assets/Placeholder_sprites/PH_Rei_Normal.png"
