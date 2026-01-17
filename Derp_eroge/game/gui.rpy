@@ -90,7 +90,7 @@ define gui.title_text_size = 75
 #define gui.main_menu_background = im.FactorScale("Assets/Placeholder BG/placeholder bg1.png", 1.5)
 #define gui.game_menu_background = im.FactorScale("Assets/Placeholder BG/placeholder bg1.png",1.5)
 
-define gui.main_menu_background = "Assets/Placeholder BG/placeholder bg1.png"
+define gui.main_menu_background = "assets/PH_BG/placeholder bg1.png"
 # define gui.game_menu_background = "Assets/Placeholder BG/placeholder bg1.png"
 
 

@@ -1,12 +1,15 @@
-# Sprite images
 
-
+# SPRITES
 # Shizuku Sprites
-image shizuku normal = "Assets/Placeholder_sprites/PH_Shizuku_Normal.png"
+image shizuku normal = "assets/PH_sprites/Shizuku_Normal.png"
 
 # Rei Sprites
-image rei normal = "Assets/Placeholder_sprites/PH_Rei_Normal.png"
-image rei angry = "Assets/Placeholder_sprites/PH_Rei_angry.png"
+image rei normal = "assets/PH_sprites/Rei_Normal.png"
+image rei angry = "assets/PH_sprites/Rei_angry.png"
 
 # Shinji Sprites
-image shinji normal = "Assets/Placeholder_sprites/PH_Shinji_Normal.png"
+image shinji normal = "assets/PH_sprites/Shinji_Normal.png"
+
+
+# BACKGROUNDS
+
