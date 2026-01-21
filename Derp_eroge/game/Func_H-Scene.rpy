@@ -13,8 +13,13 @@ screen mg_screen():
 
         text "H-Scene Menu" size 40
         text "Affection: [Affection]" size 30
+        text "Intimacy: [Lust]" size 30
 
-        add "shizuku normal"
+    
 
 
         textbutton "Exit" action Return()
+
+    add "shizuku normal":
+            xalign 0.5
+            yalign 0.3

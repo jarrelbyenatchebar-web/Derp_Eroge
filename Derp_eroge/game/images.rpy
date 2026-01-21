@@ -13,3 +13,5 @@ image shinji normal = "assets/PH_sprites/Shinji_Normal.png"
 
 # BACKGROUNDS
 
+
+# H-Scene assets
