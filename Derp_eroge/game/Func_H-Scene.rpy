@@ -17,9 +17,16 @@ screen mg_screen():
 
     
 
+    frame:
+        xalign 0.3
 
-        textbutton "Exit" action Return()
+        background "container_bg"
 
-    add "shizuku normal":
-            xalign 0.5
-            yalign 0.3
+        vbox:
+            add "upper_torso" yalign 0.5
+
+
+    
+    textbutton "Exit" action Return():
+        xalign 0.99
+        yalign 0.1
