@@ -137,6 +137,8 @@ label scene_1_new_home:
     mc "{i}I can’t tell if she dislikes me…{/i}"
     mc "{i}Or if she’s just careful.{/i}"
 
+    show shizuku normal
+
     sz "…You can take the room at the end of the hall."
 
     mc "That’s more than enough. Thank you."
